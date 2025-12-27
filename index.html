@@ -1,0 +1,729 @@
+<div class="rk-wrap" id="rkWrap">
+  <div class="rk-header">
+    <h2 class="rk-title">🚦 Dein Weg zum Führerschein</h2>
+
+    <!-- Toast neben Überschrift -->
+    <div class="rk-toast" id="rkToast" aria-hidden="true">
+      <div class="rk-toast-inner">
+        <div class="rk-toast-emoji">🎉</div>
+        <div>
+          <div class="rk-toast-title">Führerschein erreicht</div>
+          <div class="rk-toast-sub">Stark! Jetzt beginnt die Freiheit.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Intro -->
+  <div class="rk-lead">
+    <div class="rk-lead-title">Führerscheinausbildung</div>
+    <div class="rk-lead-text">
+      Hier findest du alle Infos – von der Anmeldung bis zum Führerschein! Und noch mehr!
+      Kompakt zusammengefasst beantworten wir deine Fragen zur gesamten Ausbildung.
+      <span class="rk-lead-hint">🚦 Alle Informationen erhältst du auch jederzeit von unserem Büro-Team.</span>
+    </div>
+  </div>
+
+  <div class="rk-stage">
+    <!-- Track / Line -->
+    <div class="rk-track" id="rkTrack" aria-hidden="true">
+      <div class="rk-track-glass"></div>
+      <div class="rk-track-flow"></div>
+
+      <div class="rk-progress" id="rkProgress">
+        <div class="rk-progress-midline"></div>
+      </div>
+
+      <!-- Stops -->
+      <div class="rk-stops" id="rkStops"></div>
+
+      <!-- Car -->
+      <div class="rk-car" id="rkCar">
+        <img
+          class="rk-car-img"
+          src="https://image.jimcdn.com/app/cms/image/transf/dimension=320x10000:format=png/path/s91fafdaaa718653a/image/i99a8610ca2f7d674/version/1766667693/image.png"
+          alt="">
+      </div>
+    </div>
+
+    <!-- Steps -->
+    <div class="rk-points" id="rkPoints">
+      <button class="rk-point active" data-index="0" data-wiki="anmeldung"
+        data-title="📝 Anmeldung"
+        data-text="Hier beginnt dein Weg: Wir melden dich an, klären Klasse & Ablauf und legen deinen Startplan fest. Du brauchst dafür nur deinen Personalausweis.">
+        <span>Anmeldung</span>
+      </button>
+
+      <button class="rk-point" data-index="1" data-wiki="antrag"
+        data-title="📄 Antrag"
+        data-text="Der Führerscheinantrag ist die Freigabe der Behörde. Wir sagen dir genau, was du brauchst und wo du ihn stellst.">
+        <span>Antrag</span>
+      </button>
+
+      <button class="rk-point" data-index="2" data-wiki="theorie"
+        data-title="📘 Theorieunterricht"
+        data-text="Im Theorieunterricht lernst du die Regeln, Abläufe und Zusammenhänge – die Basis für Prüfung und Praxis. Einstieg ist jederzeit möglich.">
+        <span>TH Unterricht</span>
+      </button>
+
+      <button class="rk-point" data-index="3" data-wiki="theoriepruefung"
+        data-title="🧠 Theorieprüfung"
+        data-text="Wenn du bereit bist, melden wir dich an und begleiten dich bis zum Termin beim TÜV.">
+        <span>TH Prüfung</span>
+      </button>
+
+      <button class="rk-point" data-index="4" data-wiki="praxis"
+        data-title="🚗 Fahrstunden"
+        data-text="In der Praxis baust du Sicherheit auf, Schritt für Schritt – angepasst an dein Tempo und deinen Lernfortschritt.">
+        <span>Fahrstunden</span>
+      </button>
+
+      <button class="rk-point" data-index="5" data-wiki="praxispruefung"
+        data-title="🏁 Praxisprüfung"
+        data-text="Dein Fahrlehrer meldet dich an, sobald alles sitzt. Die Prüfung findet beim TÜV statt.">
+        <span>Praxis Prüfung</span>
+      </button>
+
+      <button class="rk-point" data-index="6" data-wiki="fuehrerschein"
+        data-title="🎉 Führerschein"
+        data-text="Geschafft. Du bist jetzt selbstständig unterwegs – und wir bleiben auch danach dein Ansprechpartner.">
+        <span>Führerschein</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Info -->
+  <div class="rk-info" id="rkInfoBox">
+    <div class="rk-info-title" id="rkInfoTitle">📝 Anmeldung</div>
+    <ul class="rk-info-list" id="rkInfoList"></ul>
+  </div>
+
+  <!-- FAQ Hint -->
+  <div class="rk-faq-inline">
+    ❓ Hier sind die häufigsten Fragen →
+    <a href="https://www.fahrschule-rakowski.eu/faq-1/">FAQ</a>
+  </div>
+
+  <!-- ✅ PROGRESSIVE WIKI -->
+  <div class="rk-wiki" id="rkWiki">
+    <div class="rk-wiki-head">
+      <div class="rk-wiki-title">📚 Führerschein-Wiki</div>
+      <div class="rk-wiki-sub">
+        Oben siehst du den Überblick – hier unten wachsen die Details Schritt für Schritt mit.
+      </div>
+    </div>
+
+    <!-- 📝 Anmeldung -->
+    <div class="rk-acc rk-reveal open" id="wiki-anmeldung" data-step="0">
+      <button class="rk-acc-btn" type="button">
+        <span class="rk-acc-left">
+          <span class="rk-acc-badge">📝</span>
+          <span class="rk-acc-title">Anmeldung</span>
+        </span>
+        <span class="rk-acc-right">
+          <span class="rk-acc-status" aria-hidden="true"></span>
+          <span class="rk-acc-ico">–</span>
+        </span>
+      </button>
+      <div class="rk-acc-panel">
+        <hr>
+        <b>Was du brauchst</b>
+        <ul>
+          <li>Personalausweis</li>
+          <li>Falls vorhanden: Sehtest / Erste Hilfe / Passbild (nicht zwingend)</li>
+        </ul>
+
+        <b>Wo & wie anmelden</b>
+        <ul>
+          <li>In jeder Filiale, zu den Öffnungszeiten, ohne Termin</li>
+          <li>Kurzes Gespräch: Klasse, Ablauf, Zeitplan</li>
+        </ul>
+
+        <b>Was passiert danach</b>
+        <ul>
+          <li>Büro-Team gibt dir alle Infos, Unterlagen & Preise</li>
+          <li>Wir erklären dir den Ablauf deines Führerscheinantrags</li>
+        </ul>
+
+        <b>Pro-Tipp</b>
+        <div class="rk-note">
+          Starte direkt mit Theorie, während dein Antrag bearbeitet wird – das spart oft Wochen.
+        </div>
+      </div>
+    </div>
+
+    <!-- 📄 Antrag -->
+    <div class="rk-acc rk-reveal" id="wiki-antrag" data-step="1">
+      <button class="rk-acc-btn" type="button">
+        <span class="rk-acc-left">
+          <span class="rk-acc-badge">📄</span>
+          <span class="rk-acc-title">Antrag bei der Behörde</span>
+        </span>
+        <span class="rk-acc-right">
+          <span class="rk-acc-status" aria-hidden="true"></span>
+          <span class="rk-acc-ico">+</span>
+        </span>
+      </button>
+      <div class="rk-acc-panel">
+        <hr>
+        <b>Wo wird beantragt</b>
+        <ul>
+          <li>Je nach Wohnort: Straßenverkehrsamt, Bürgerbüro oder Kreisbehörde</li>
+          <li>Wir sagen dir genau, wohin du musst</li>
+        </ul>
+
+        <b>Bearbeitungszeit</b>
+        <ul><li>Meist 4–6 Wochen</li></ul>
+
+        <b>Wichtig</b>
+        <ul>
+          <li>Prüfungen erst nach Genehmigung möglich</li>
+          <li>Ausbildung darf vorher starten</li>
+        </ul>
+
+        <b>Gültigkeit</b>
+        <ul>
+          <li>Antrag: 1 Jahr gültig</li>
+          <li>Bestandene Theorie verlängert den Antrag um 1 weiteres Jahr</li>
+        </ul>
+
+        <div class="rk-note">
+          Pro-Tipp: Antrag so früh wie möglich stellen – die Wartezeit ist oft der größte Zeitfresser.
+        </div>
+      </div>
+    </div>
+
+    <!-- 📘 Theorie -->
+    <div class="rk-acc rk-reveal" id="wiki-theorie" data-step="2">
+      <button class="rk-acc-btn" type="button">
+        <span class="rk-acc-left">
+          <span class="rk-acc-badge">📘</span>
+          <span class="rk-acc-title">Theorieunterricht</span>
+        </span>
+        <span class="rk-acc-right">
+          <span class="rk-acc-status" aria-hidden="true"></span>
+          <span class="rk-acc-ico">+</span>
+        </span>
+      </button>
+      <div class="rk-acc-panel">
+        <hr>
+        <b>Ablauf</b>
+        <ul>
+          <li>Themen einzeln abgeschlossen → Einstieg jederzeit möglich</li>
+          <li>Bis zu 4× pro Woche Unterricht</li>
+        </ul>
+
+        <b>Pflichtumfang</b>
+        <ul>
+          <li>12 Doppelstunden Grundstoff</li>
+          <li>Bei Erweiterung: 6 Doppelstunden Grundstoff</li>
+          <li>2–6 Doppelstunden Zusatzstoff (je nach Klasse)</li>
+        </ul>
+
+        <b>Gültigkeit</b>
+        <ul>
+          <li>Theorieunterricht: 2 Jahre gültig</li>
+          <li>In dieser Zeit musst du die Theorieprüfung bestehen</li>
+        </ul>
+
+        <div class="rk-note">
+          Hinweis: Antrag (1 Jahr) und Theorieunterricht (2 Jahre) nicht verwechseln.
+        </div>
+      </div>
+    </div>
+
+    <!-- 🧠 Theorieprüfung -->
+    <div class="rk-acc rk-reveal" id="wiki-theoriepruefung" data-step="3">
+      <button class="rk-acc-btn" type="button">
+        <span class="rk-acc-left">
+          <span class="rk-acc-badge">🧠</span>
+          <span class="rk-acc-title">Theorieprüfung (TÜV)</span>
+        </span>
+        <span class="rk-acc-right">
+          <span class="rk-acc-status" aria-hidden="true"></span>
+          <span class="rk-acc-ico">+</span>
+        </span>
+      </button>
+      <div class="rk-acc-panel">
+        <hr>
+        <ul>
+          <li>Anmeldung über unsere Fahrschule (nach Antrag-Genehmigung & Prüfungsreife)</li>
+          <li>Prüfung beim TÜV</li>
+          <li>Dauer ca. 45 Minuten</li>
+          <li>Bestandene Theorie ist 1 Jahr gültig</li>
+        </ul>
+
+        <div class="rk-note">
+          Tipp: Regelmäßig üben – kleine Einheiten schlagen „alles auf einmal“.
+        </div>
+      </div>
+    </div>
+
+    <!-- 🚗 Praxis -->
+    <div class="rk-acc rk-reveal" id="wiki-praxis" data-step="4">
+      <button class="rk-acc-btn" type="button">
+        <span class="rk-acc-left">
+          <span class="rk-acc-badge">🚗</span>
+          <span class="rk-acc-title">Fahrstunden (Praxis)</span>
+        </span>
+        <span class="rk-acc-right">
+          <span class="rk-acc-status" aria-hidden="true"></span>
+          <span class="rk-acc-ico">+</span>
+        </span>
+      </button>
+      <div class="rk-acc-panel">
+        <hr>
+        <ul>
+          <li>Praxis kann parallel zur Theorie starten</li>
+          <li>Pflichtfahrten Klasse B: 5 Überland, 4 Autobahn, 3 Nacht</li>
+          <li>Übungsstunden: abhängig vom Lernfortschritt</li>
+          <li>Fahrlehrer & Fahrzeug kannst du mitbestimmen</li>
+        </ul>
+
+        <div class="rk-note">
+          Tipp: Vormittags ist oft weniger Verkehr – das macht’s am Anfang leichter.
+        </div>
+      </div>
+    </div>
+
+    <!-- 🏁 Praxisprüfung -->
+    <div class="rk-acc rk-reveal" id="wiki-praxispruefung" data-step="5">
+      <button class="rk-acc-btn" type="button">
+        <span class="rk-acc-left">
+          <span class="rk-acc-badge">🏁</span>
+          <span class="rk-acc-title">Praktische Prüfung (TÜV)</span>
+        </span>
+        <span class="rk-acc-right">
+          <span class="rk-acc-status" aria-hidden="true"></span>
+          <span class="rk-acc-ico">+</span>
+        </span>
+      </button>
+      <div class="rk-acc-panel">
+        <hr>
+        <ul>
+          <li>Terminplanung zusammen mit deinem Fahrlehrer</li>
+          <li>Prüfung beim TÜV</li>
+          <li>Stadt / Überland / Autobahn + Manöver + Sicherheits-/Technikfragen</li>
+          <li>Bestandene Theorie bleibt 1 Jahr gültig</li>
+        </ul>
+
+        <div class="rk-note">
+          Tipp: Prüfer wollen sehen, dass du sicher fahren kannst – nicht, dass alles perfekt ist.
+        </div>
+      </div>
+    </div>
+
+    <!-- 🎉 Führerschein -->
+    <div class="rk-acc rk-reveal" id="wiki-fuehrerschein" data-step="6">
+      <button class="rk-acc-btn" type="button">
+        <span class="rk-acc-left">
+          <span class="rk-acc-badge">🎉</span>
+          <span class="rk-acc-title">Führerschein</span>
+        </span>
+        <span class="rk-acc-right">
+          <span class="rk-acc-status" aria-hidden="true"></span>
+          <span class="rk-acc-ico">+</span>
+        </span>
+      </button>
+      <div class="rk-acc-panel">
+        <hr>
+        <ul>
+          <li>Du darfst jetzt selbstständig fahren</li>
+          <li>Wir sind auch danach für dich da (Kurse, Klassen, Seminare)</li>
+          <li>ASF / FES / Eco-Training möglich</li>
+        </ul>
+
+        <div class="rk-note">
+          Du bist nicht allein – wir begleiten dich von der Anmeldung bis weit über die Prüfung hinaus.
+        </div>
+      </div>
+    </div>
+
+    <div class="rk-wiki-footer">
+      <div class="rk-wiki-footer-left">
+        Noch Fragen? Ruf uns an: <a href="tel:+4962127220">0621-27220</a>
+      </div>
+      <div class="rk-wiki-footer-right">
+        Oder schau in die <a href="https://www.fahrschule-rakowski.eu/faq-1/">FAQ</a>.
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+:root{
+  --rk-orange:#ff8c00;
+  --rk-blue:#1b75bc;
+
+  --rk-intensity: 0;
+  --rk-ol: 66%;
+  --rk-bl: 66%;
+  --rk-oa: .85;
+  --rk-ba: .85;
+}
+
+.rk-wrap{max-width:1000px;margin:0 auto;padding:42px 22px 14px;font-family:system-ui;}
+.rk-header{display:flex;align-items:flex-start;gap:14px;flex-wrap:wrap;margin-bottom:10px;}
+.rk-title{margin:0;line-height:1.15;}
+
+.rk-lead{margin:10px 0 14px;padding:14px 16px;border-radius:18px;background:linear-gradient(90deg, rgba(255,140,0,.10), rgba(27,117,188,.10));border:1px solid rgba(27,117,188,.18);box-shadow:0 12px 30px rgba(0,0,0,.08);}
+.rk-lead-title{font-weight:950;margin-bottom:6px;}
+.rk-lead-text{opacity:.92;line-height:1.45;}
+.rk-lead-hint{display:block;margin-top:6px;font-weight:800;}
+
+.rk-toast{opacity:0;pointer-events:none;}
+.rk-toast.show{animation: rkToastIn .35s ease forwards, rkToastOut .55s ease forwards;animation-delay: 0s, 5.0s;}
+@keyframes rkToastIn{ from{opacity:0; transform:translateY(6px)} to{opacity:1; transform:translateY(0)} }
+@keyframes rkToastOut{ from{opacity:1; transform:translateY(0)} to{opacity:0; transform:translateY(6px)} }
+.rk-toast-inner{display:flex;gap:10px;align-items:center;padding:10px 12px;border-radius:16px;background:linear-gradient(135deg, rgba(255,140,0,.12), rgba(27,117,188,.12));border:1px solid rgba(27,117,188,.22);box-shadow:0 18px 55px rgba(0,0,0,.14);backdrop-filter: blur(10px);}
+.rk-toast-emoji{font-size:20px}
+.rk-toast-title{font-weight:950}
+.rk-toast-sub{opacity:.85;font-size:.92rem}
+
+.rk-stage{position:relative;padding-top:10px;}
+.rk-track{position:relative;height:18px;border-radius:999px;overflow:visible;margin:6px 0 10px;}
+.rk-track-glass{position:absolute;inset:0;border-radius:999px;background:linear-gradient(180deg, rgba(255,255,255,.70), rgba(255,255,255,.30));border:1px solid rgba(27,117,188,.18);box-shadow:0 10px 30px rgba(0,0,0,.10);backdrop-filter: blur(10px);}
+.rk-track-flow{position:absolute;inset:0;border-radius:999px;background:linear-gradient(90deg, rgba(255,140,0,.10), rgba(27,117,188,.10), rgba(255,140,0,.10));background-size:200% 100%;animation: rkFlow 9.5s linear infinite;opacity:.85;}
+@keyframes rkFlow{ from{background-position:0% 0%} to{background-position:200% 0%} }
+
+.rk-progress{position:absolute;left:0;top:0;height:100%;width:0%;border-radius:999px;overflow:hidden;transition:width 1.05s cubic-bezier(.2,.8,.2,1);
+  background:linear-gradient(90deg, hsl(33 100% var(--rk-ol) / var(--rk-oa)), hsl(206 72% var(--rk-bl) / var(--rk-ba)));
+  filter:saturate(calc(1 + (var(--rk-intensity) * 0.90))) contrast(calc(1 + (var(--rk-intensity) * 0.45))) brightness(calc(1 - (var(--rk-intensity) * 0.18)));
+}
+.rk-progress-midline{position:absolute;left:10px;right:10px;top:50%;height:2px;transform:translateY(-50%);border-radius:999px;background:rgba(255,255,255,.55);opacity:.52;}
+.rk-progress::after{content:"";position:absolute;top:-30%;left:-35%;width:30%;height:160%;transform:skewX(-18deg);
+  background:linear-gradient(90deg, rgba(255,255,255,0), rgba(255,255,255,.20), rgba(255,255,255,0));
+  animation: rkShine 12.5s ease-in-out infinite;opacity:.30;
+}
+@keyframes rkShine{ 0%{left:-35%} 100%{left:135%} }
+.rk-progress.done{background:linear-gradient(90deg, hsl(33 100% 38% / 1), hsl(206 72% 34% / 1));filter:saturate(2.2) contrast(1.42) brightness(.90);}
+
+/* Stops */
+.rk-stops{position:absolute;inset:0;z-index:5;pointer-events:auto;}
+.rk-stop{
+  position:absolute;top:50%;transform:translate(-50%,-56%);
+  width:28px;height:28px;border-radius:10px;display:grid;place-items:center;font-size:15px;
+  background:rgba(255,255,255,.78);border:1px solid rgba(0,0,0,.10);
+  box-shadow:0 10px 25px rgba(0,0,0,.10);backdrop-filter: blur(6px);
+  opacity:.62;cursor:pointer;user-select:none;
+  transition:opacity .18s ease, transform .18s ease, box-shadow .22s ease;
+}
+.rk-stop:hover{opacity:.96;transform:translate(-50%,-60%) scale(1.06);box-shadow:0 14px 32px rgba(0,0,0,.14);}
+.rk-stop.done{opacity:.92;}
+.rk-stop.active{opacity:1;transform:translate(-50%,-62%) scale(1.10);}
+
+/* Car */
+.rk-car{position:absolute;top:50%;left:0%;transform:translate(-50%,-78%);transition:left 1.05s cubic-bezier(.2,.8,.2,1);z-index:999;pointer-events:none;}
+.rk-car-img{
+  height:126px;width:auto;display:block;
+  filter:drop-shadow(0 22px 34px rgba(0,0,0,.25))
+         drop-shadow(0 0 calc(2px + (var(--rk-intensity) * 12px)) rgba(27,117,188,.20))
+         drop-shadow(0 0 calc(1px + (var(--rk-intensity) * 10px)) rgba(255,140,0,.18))
+         saturate(calc(1 + (var(--rk-intensity) * 1.10)))
+         contrast(calc(1 + (var(--rk-intensity) * 0.35)))
+         hue-rotate(calc(var(--rk-intensity) * 14deg));
+  transition:filter .28s ease, transform .22s ease;
+}
+
+/* Steps + micro-interactions */
+.rk-points{display:flex;justify-content:space-between;gap:10px;overflow-x:auto;padding:10px 0 6px;}
+.rk-point{
+  position:relative;border:2px solid #ddd;background:#fff;border-radius:20px;padding:10px 14px;
+  font-weight:900;cursor:pointer;white-space:nowrap;flex:0 0 auto;overflow:hidden;-webkit-tap-highlight-color: transparent;
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.rk-point:hover{
+  transform: translateY(-2px);
+  box-shadow:0 12px 26px rgba(0,0,0,.10);
+}
+.rk-point:active{ transform: translateY(0px) scale(.99); }
+.rk-point span{position:relative;z-index:2;}
+.rk-point::before{content:"";position:absolute;inset:0;width:0%;background:linear-gradient(90deg, rgba(255,140,0,.20), rgba(27,117,188,.20));z-index:1;transition:width .6s cubic-bezier(.2,.8,.2,1);}
+.rk-point.done::before{width:100%;}
+.rk-point.active::before{width:100%;background:linear-gradient(90deg, rgba(255,140,0,.28), rgba(27,117,188,.28));}
+.rk-point.active{border-color:rgba(27,117,188,.75);}
+.rk-point.done{border-color:rgba(27,117,188,.35);}
+
+/* Info box */
+.rk-info{margin-top:14px;padding:18px 18px 16px;border-radius:18px;background:linear-gradient(180deg, rgba(255,255,255,.86), rgba(245,247,251,1));border:1px solid rgba(27,117,188,.14);box-shadow:0 16px 40px rgba(0,0,0,.10);position:relative;overflow:hidden;}
+.rk-info::before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:linear-gradient(180deg, var(--rk-orange), var(--rk-blue));opacity:.9;}
+.rk-info-title{font-weight:950;font-size:1.06rem;margin:0 0 10px;padding-left:10px;}
+.rk-info-list{list-style:none;padding:0 0 0 10px;margin:0;display:grid;gap:10px;}
+.rk-info-list li{display:flex;gap:10px;align-items:flex-start;padding:10px 12px;border-radius:14px;background:rgba(255,255,255,.65);border:1px solid rgba(0,0,0,.06);}
+.rk-info-list li::before{content:"";width:10px;height:10px;margin-top:5px;border-radius:50%;background:linear-gradient(135deg, rgba(255,140,0,.9), rgba(27,117,188,.9));flex:0 0 10px;}
+
+/* FAQ */
+.rk-faq-inline{margin-top:12px;padding:10px 14px;border-radius:14px;background:linear-gradient(90deg, rgba(255,140,0,.10), rgba(27,117,188,.10));border:1px solid rgba(27,117,188,.18);font-weight:800;display:flex;gap:6px;align-items:center;flex-wrap:wrap;}
+.rk-faq-inline a{font-weight:900;color:#0f172a;text-decoration:none;}
+.rk-faq-inline a:hover{text-decoration:underline;}
+
+/* Wiki */
+.rk-wiki{margin-top:14px;border-radius:18px;border:1px solid rgba(27,117,188,.14);background:linear-gradient(180deg, rgba(255,255,255,.88), rgba(245,247,251,1));box-shadow:0 16px 40px rgba(0,0,0,.08);overflow:hidden;}
+.rk-wiki-head{padding:16px 16px 10px;border-bottom:1px solid rgba(0,0,0,.06);}
+.rk-wiki-title{font-weight:950;}
+.rk-wiki-sub{opacity:.85;margin-top:4px;line-height:1.35;}
+
+.rk-acc{border-top:1px solid rgba(0,0,0,.06);position:relative;}
+.rk-acc:first-of-type{border-top:none;}
+.rk-acc::before{
+  content:"";
+  position:absolute;left:0;top:0;bottom:0;width:4px;
+  background:linear-gradient(180deg, rgba(255,140,0,.85), rgba(27,117,188,.85));
+  opacity:.55;
+}
+.rk-acc.open::before{ opacity:.95; }
+
+.rk-acc-btn{
+  width:100%;text-align:left;display:flex;align-items:center;justify-content:space-between;gap:12px;
+  padding:14px 16px;background:transparent;border:none;cursor:pointer;font-weight:950;font-size:1rem;
+  transition: transform .18s ease, background .18s ease;
+}
+.rk-acc-btn:hover{ transform: translateY(-1px); background: rgba(27,117,188,.04); }
+.rk-acc-btn:active{ transform: translateY(0); }
+
+.rk-acc-left{display:flex;align-items:center;gap:10px;}
+.rk-acc-badge{
+  width:34px;height:34px;border-radius:12px;display:grid;place-items:center;
+  background:linear-gradient(135deg, rgba(255,140,0,.14), rgba(27,117,188,.12));
+  border:1px solid rgba(0,0,0,.06);
+  box-shadow:0 10px 22px rgba(0,0,0,.08);
+}
+.rk-acc-title{font-weight:950;letter-spacing:.2px;}
+
+.rk-acc-right{display:flex;align-items:center;gap:10px;}
+.rk-acc-status{
+  min-width:34px;height:26px;padding:0 10px;border-radius:999px;
+  display:grid;place-items:center;
+  font-weight:950;font-size:.88rem;
+  background:rgba(27,117,188,.08);
+  border:1px solid rgba(27,117,188,.14);
+  color:#0f172a;
+}
+.rk-acc.done .rk-acc-status{
+  background:rgba(255,140,0,.10);
+  border-color:rgba(255,140,0,.18);
+}
+.rk-acc.current .rk-acc-status{
+  background:linear-gradient(90deg, rgba(255,140,0,.14), rgba(27,117,188,.12));
+  border-color:rgba(27,117,188,.18);
+}
+
+.rk-acc-ico{
+  width:30px;height:30px;display:grid;place-items:center;border-radius:12px;
+  background:rgba(27,117,188,.10);border:1px solid rgba(27,117,188,.14);font-weight:950;
+  transition: transform .18s ease;
+}
+.rk-acc.open .rk-acc-ico{background:rgba(255,140,0,.12);border-color:rgba(255,140,0,.18);transform: rotate(0deg);}
+.rk-acc-btn:hover .rk-acc-ico{ transform: rotate(-3deg); }
+
+.rk-acc-panel{display:none;padding:0 16px 16px;line-height:1.45;opacity:.92;}
+.rk-acc.open .rk-acc-panel{display:block;}
+
+.rk-note{margin-top:10px;padding:10px 12px;border-radius:14px;background:linear-gradient(90deg, rgba(255,140,0,.10), rgba(27,117,188,.08));border:1px solid rgba(27,117,188,.12);font-weight:800;}
+
+/* Progressive reveal */
+.rk-reveal{opacity:0;transform:translateY(8px);max-height:0;overflow:hidden;transition: opacity .35s ease, transform .35s ease, max-height .55s ease;}
+.rk-reveal.show{opacity:1;transform:translateY(0);max-height:1200px;}
+
+.rk-wiki-footer{padding:12px 16px;border-top:1px solid rgba(0,0,0,.06);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-weight:900;}
+.rk-wiki-footer a{color:#0f172a;text-decoration:none;}
+.rk-wiki-footer a:hover{text-decoration:underline;}
+</style>
+
+<script>
+(() => {
+  const points = Array.from(document.querySelectorAll('.rk-point'));
+  const progress = document.getElementById('rkProgress');
+  const car = document.getElementById('rkCar');
+  const stopsWrap = document.getElementById('rkStops');
+  const toast = document.getElementById('rkToast');
+
+  const infoTitle = document.getElementById('rkInfoTitle');
+  const infoList = document.getElementById('rkInfoList');
+  const pointsWrap = document.getElementById('rkPoints');
+
+  const wiki = document.getElementById('rkWiki');
+  const accs = Array.from(document.querySelectorAll('.rk-acc'));
+  const revealAccs = Array.from(document.querySelectorAll('.rk-reveal'));
+
+  const total = points.length;
+  const lastIndex = total - 1;
+  let lastPct = 0;
+
+  const clamp01 = (x) => Math.max(0, Math.min(1, x));
+
+  function setIntensity(p){
+    const t = clamp01(p);
+    const eased = Math.pow(t, 0.95);
+    document.documentElement.style.setProperty('--rk-intensity', String(eased));
+
+    const oa = 0.85 + (eased * 0.15);
+    const ba = 0.85 + (eased * 0.15);
+    document.documentElement.style.setProperty('--rk-oa', oa.toFixed(2));
+    document.documentElement.style.setProperty('--rk-ba', ba.toFixed(2));
+
+    const ol = 66 - (eased * 28);
+    const bl = 66 - (eased * 32);
+    document.documentElement.style.setProperty('--rk-ol', ol.toFixed(1) + '%');
+    document.documentElement.style.setProperty('--rk-bl', bl.toFixed(1) + '%');
+  }
+
+  function buildStops(){
+    stopsWrap.innerHTML = "";
+    for(let i=0;i<total;i++){
+      const s = document.createElement('div');
+      s.className = "rk-stop" + (i===0 ? " active" : "");
+      s.style.left = (total<=1 ? 0 : (i/(total-1))*100) + "%";
+      s.textContent = "🛑";
+      s.setAttribute("role","button");
+      s.setAttribute("tabindex","0");
+      s.setAttribute("aria-label", `Schritt ${i+1}`);
+      s.addEventListener('click', () => setActive(i, true));
+      s.addEventListener('keydown', (e) => {
+        if(e.key === "Enter" || e.key === " "){ e.preventDefault(); setActive(i, true); }
+      });
+      stopsWrap.appendChild(s);
+    }
+  }
+
+  function updateStops(idx){
+    const stops = Array.from(stopsWrap.querySelectorAll('.rk-stop'));
+    stops.forEach((s,i)=>{
+      s.classList.toggle("active", i===idx);
+      s.classList.toggle("done", i<idx);
+    });
+  }
+
+  function markButtons(idx){
+    points.forEach((p,i)=>{
+      p.classList.toggle("active", i===idx);
+      p.classList.toggle("done", i<idx);
+    });
+  }
+
+  function setPct(idx){
+    const pct = total<=1 ? 1 : (idx/(total-1));
+    const percent = (pct*100) + "%";
+    setIntensity(pct);
+    progress.style.width = percent;
+    car.style.left = percent;
+
+    if(pct > lastPct + 0.0001){
+      // tiny motion emphasis
+      car.style.transform = "translate(-50%,-78%) scale(1.01)";
+      setTimeout(()=> car.style.transform = "translate(-50%,-78%) scale(1)", 180);
+    }
+    lastPct = pct;
+  }
+
+  function setInfo(idx){
+    const el = points[idx];
+    infoTitle.textContent = el.dataset.title;
+
+    const parts = (el.dataset.text || "")
+      .split(/<br><br>/g)
+      .map(s => s.trim())
+      .filter(Boolean);
+
+    infoList.innerHTML = parts.map(p => `<li>${p}</li>`).join("");
+  }
+
+  function revealWikiUpTo(idx){
+    revealAccs.forEach(acc => {
+      const step = Number(acc.getAttribute('data-step') || '0');
+      acc.classList.toggle('show', step <= idx);
+    });
+  }
+
+  // ✅ Status (7): ✅ for done, ● for current
+  function updateWikiStatus(idx){
+    accs.forEach(acc => {
+      const step = Number(acc.getAttribute('data-step') || '0');
+      const status = acc.querySelector('.rk-acc-status');
+
+      acc.classList.remove('done','current');
+
+      if(step < idx){
+        acc.classList.add('done');
+        if(status) status.textContent = "✅";
+      } else if(step === idx){
+        acc.classList.add('current');
+        if(status) status.textContent = "●";
+      } else {
+        // unrevealed or future
+        if(status) status.textContent = "";
+      }
+    });
+  }
+
+  function openCurrentWiki(idx){
+    const key = points[idx].dataset.wiki;
+    const targetId = `wiki-${key}`;
+
+    accs.forEach(acc => {
+      const ico = acc.querySelector('.rk-acc-ico');
+      const shouldOpen = acc.id === targetId;
+      acc.classList.toggle('open', shouldOpen);
+      if(ico) ico.textContent = shouldOpen ? '–' : '+';
+    });
+  }
+
+  function showToast(){
+    toast.classList.remove('show');
+    void toast.offsetWidth;
+    toast.classList.add('show');
+  }
+
+  function setActive(idx, userAction=false){
+    markButtons(idx);
+    updateStops(idx);
+    setPct(idx);
+    setInfo(idx);
+
+    revealWikiUpTo(idx);
+    openCurrentWiki(idx);
+    updateWikiStatus(idx);
+
+    if(userAction && window.innerWidth < 720){
+      const rect = wiki.getBoundingClientRect();
+      const inView = rect.top >= 0 && rect.top < window.innerHeight * 0.65;
+      if(!inView) wiki.scrollIntoView({behavior:'smooth', block:'start'});
+    }
+
+    if(idx === lastIndex){
+      progress.classList.add('done');
+      showToast();
+    } else {
+      progress.classList.remove('done');
+    }
+
+    if (pointsWrap.scrollWidth > pointsWrap.clientWidth){
+      points[idx].scrollIntoView({behavior:'smooth', inline:'center', block:'nearest'});
+    }
+  }
+
+  points.forEach((p,i)=>{
+    p.addEventListener('click', () => setActive(i, true));
+  });
+
+  // Accordion manual clicks (single-open) on revealed only
+  accs.forEach(acc => {
+    const btn = acc.querySelector('.rk-acc-btn');
+    btn.addEventListener('click', () => {
+      if(acc.classList.contains('rk-reveal') && !acc.classList.contains('show')) return;
+
+      accs.forEach(a => {
+        const ic = a.querySelector('.rk-acc-ico');
+        const shouldOpen = a === acc;
+        a.classList.toggle('open', shouldOpen);
+        if(ic) ic.textContent = shouldOpen ? '–' : '+';
+      });
+    });
+  });
+
+  // init
+  buildStops();
+  revealWikiUpTo(0);
+  setActive(0, false);
+})();
+</script>
